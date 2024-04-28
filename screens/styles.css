@@ -1,0 +1,42 @@
+body {
+    background-image: url('DiscoverTM.jpg');
+    background-size: cover;
+    height: 100vh; 
+}
+.topnav {
+  overflow: hidden;
+  justify-content: flex-end;
+  position: absolute;
+  top: 60px; 
+  right: 50px;
+  }
+  
+
+  .topnav a {
+    color: gray;
+    text-align: center;
+    font-size: 22px;
+    margin-left: 40px; 
+    text-decoration: none;
+  }
+
+  
+  .topnav a.active {
+    color:#8C52FF;
+  
+  }
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.text p {
+    font-size:18;
+    font-family: 'Lucida Sans'
+}
