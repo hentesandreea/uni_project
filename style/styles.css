@@ -1,5 +1,5 @@
 body {
-    background-image: url('DiscoverTM.jpg');
+    background-image: url('../assets/images/DiscoverTM.jpg');
     background-size: cover;
     height: 100vh; 
 }
