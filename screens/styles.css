@@ -8,7 +8,7 @@ body {
   justify-content: flex-end;
   position: absolute;
   top: 60px; 
-  right: 50px;
+  right: 120px;
   }
   
 
@@ -16,7 +16,7 @@ body {
     color: gray;
     text-align: center;
     font-size: 22px;
-    margin-left: 40px; 
+    margin-left: 60px; 
     text-decoration: none;
   }
 
@@ -26,17 +26,16 @@ body {
   
   }
 
-.text {
+.textbox {
     position: absolute;
-    top: 50%;
-    left: 50%; 
+    top: 20%;
+    left: 40%; 
+    margin-right: 60px;
     text-align: center;
-    padding: 20px;
     border-radius: 10px;
-
-}
-
-.text p {
-    font-size:18;
-    font-family: 'Lucida Sans'
+    border-width: 4px;
+    border-color: #8C52FF;
+    border-style: solid;
+    padding: 10px; 
+    box-sizing: border-box;
 }
