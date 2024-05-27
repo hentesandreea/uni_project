@@ -1,0 +1,125 @@
+
+.topnav {
+    width:96vw;
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+    justify-content: flex-end;
+    padding-top: 40px;
+    margin-bottom: 50px;
+}
+    
+.topnav a {
+    color: gray;
+    text-align: center;
+    font-size: 22px;
+    margin-left: 60px; 
+    text-decoration: none;
+}
+  
+.topnav a.active {
+    color:#8C52FF;
+}
+
+.contentDiv { 
+    background-image: linear-gradient(180deg,#E1AFD1,#8C52FF);
+    padding-inline: 40px;
+    width: 27vw;
+    height: 15vw;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.eventDiv{
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    width: 98vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 1vw;
+    align-items: center;
+    justify-content: "center";
+}
+
+.eventTitle { 
+    font-size: 32px;
+    color: black
+}
+
+.eventDate {
+    font-size: 20px;
+}
+
+.eventLocation {
+    font-size: 20px;
+}
+
+.eventPrice {
+    font-size: 24px;
+}
+
+.textDiv {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.imageElement {
+    height:15vw;
+    width:15vw;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+h2 {
+   text-align: center;
+    color: rgb(39, 37, 37);  
+}
+label {
+    font-size:23px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    display: inline-block;
+    font-weight: 700;
+    color: white;
+  }
+  select {
+    font-size: 21px;
+    padding: 5px;
+    border-radius: 6px;
+  }
+  .parentDiv{
+    height: fit-content;
+    place-items: center;
+
+  }
+  .labelDiv {
+    background-color: #8C52FF;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    gap:25px
+}
+button {
+    padding: 10px 10px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(39, 37, 37);  
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}

@@ -1,0 +1,66 @@
+.obiectiveDivImage {
+    height: 26vw;
+    width: 46vw;
+    border-radius: 10px;
+}
+
+.obiectiveDiv {
+    padding: 10px;
+    border-radius: 10px;
+    height: fit-content;
+    width: 47vw;
+    background-image: linear-gradient(180deg,#E1AFD1,#8C52FF);
+   
+}
+
+.obiectiveDivTitle {
+    font-size: 24px;
+    font-weight: 700;
+    color: white
+}
+
+.obiectiveDivSubtitle {
+    font-size: 18px;
+    font-weight: 400;
+    color:  rgb(39, 37, 37)
+}
+
+.body {
+    align-items: center;
+    justify-content: "center";
+}
+
+.container {
+    width: 98vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 1vw;
+    align-items: center;
+    justify-content: "center";
+}
+
+.topnav {
+    width:96vw;
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+    justify-content: flex-end;
+    padding-top: 40px;
+    margin-bottom: 50px;
+}
+    
+  
+.topnav a {
+    color: gray;
+    text-align: center;
+    font-size: 22px;
+    margin-left: 60px; 
+    text-decoration: none;
+}
+  
+    
+.topnav a.active {
+    color:#8C52FF;
+}
